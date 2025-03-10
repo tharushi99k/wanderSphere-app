@@ -1,4 +1,4 @@
-# WanderSphere App - Travel Agency & Dashboard
+# WanderSphere App - Travel Agency Homepage & Dashboard
 
 **wanderSphere** is a travel agency web application that allows users to explore destinations, book trips, and manage their itineraries. It also includes a dashboard for the admin to manage bookings, destinations, and user data.
 
