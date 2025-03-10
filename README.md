@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# wanderSphere App - Travel Agency & Dashboard
 
-## Getting Started
+**wanderSphere** is a travel agency web application that allows users to explore destinations, book trips, and manage their itineraries. It also includes a dashboard for the admin to manage bookings, destinations, and user data.
 
-First, run the development server:
+## Features
+![new](https://github.com/user-attachments/assets/0439de78-887b-449e-a14f-a508e4382506)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### For Users:
+- **Explore Destinations:** View popular travel destinations with detailed information.
+- **Book Trips:** Users can book travel packages for different destinations.
+- **Manage Itinerary:** Users can view and manage their booked trips.
+- **Contact Form:** Reach out to the support team for any inquiries or assistance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### For Admin (Dashboard):
+- **Manage Destinations:** Add, update, or delete travel destinations available for users.
+- **View Bookings:** View and manage the list of user bookings.
+- **User Management:** View and manage user data and trip information.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Frontend:** 
+  - React.js (Next.js)
+  - Tailwind CSS
+  - TypeScript
+  - Framer Motion (for animations)
+  
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB (for database)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
